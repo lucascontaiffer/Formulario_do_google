@@ -1,0 +1,59 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Noto Sans', sans-serif;
+}
+button{
+  cursor: pointer;
+}
+button:hover{
+  background-color: black;
+  color: white;
+}
+.back-ground{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #dadce0; 
+  border-radius: 5px;
+  width: 400px;
+  height: 400px;
+  gap: 20px;
+}
+.first-h1{
+  font-weight: 400;
+  font-size: 30px;
+}
+.email{
+  width: 300px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+.create-account-div{
+  display: flex;
+  justify-content: center;
+}
+.create-account-div > button{
+  margin: 10px;
+  height: 30px;
+  width: 110px;
+}
+.email-div,
+.senha-div{
+  display: flex;
+  flex-direction: column;
+}
+.password{
+  width: 300px;
+  height: 30px;
+}
+.login-div > p {
+  text-align: center;
+}
